@@ -4,13 +4,15 @@
 
 We need to add some dependencies first
 
-## Google JSon
-1) implementation 'com.google.code.gson:gson:2.8.0'
-## Apache Client
-2)implementation 'org.apache.httpcomponents:httpclient-android:4.3.5.1'
+.# Google JSon
+ implementation 'com.google.code.gson:gson:2.8.0'
+ 
+#. Apache Client
+implementation 'org.apache.httpcomponents:httpclient-android:4.3.5.1'
 
-#CONFIG
+# CONFIG
 Inside defaultConfig
+
 useLibrary 'org.apache.http.legacy'
 
- After that we need to add some referencies 
+ 

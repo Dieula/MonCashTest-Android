@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MoncashAPITest</string>
+
+    <string name="service">Service 1</string>
+    <string name="Price">10 HTG</string>
+    <string name="service2">Service 2</string>
+    <string name="client_id">b9842a99776d763bca9c3d3817b3141b</string>
+    <string name="client_secret">bBk_-C0ORqUWupscFmEz0dIlRgjDAnr9k0jG95hepd4ZwXeO-IfQ00HzbupcPz_f</string>
+
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+
+
+
+
+
+    <dimen name="pad_margin_10dp">10dp</dimen>
+    <dimen name="pad_margin_15dp">15dp</dimen>
+    <dimen name="pad_margin_20dp">20dp</dimen>
+    <dimen name="pad_margin_25dp">25dp</dimen>
+    <dimen name="pad_margin_30dp">30dp</dimen>
+
+
+
+    <dimen name="height_width_50dp">50dp</dimen>
+    <dimen name="height_width_70dp">70dp</dimen>
+
+
+    // specific height-width
+    <dimen name="pb_height_width">40dp</dimen>
+
+    // text size
+    <dimen name="txt_size_12sp">20sp</dimen>
+    <dimen name="txt_size_14sp">15sp</dimen>
+
+
+
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/MonCash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/ivNatcom"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:padding="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_background" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="0dp"
+                android:layout_toEndOf="@+id/ivNatcom"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvNatcom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:textColor="@color/colorPending"
+                    android:maxLines="1"
+                    android:text="@string/service"
+                    android:textSize="@dimen/txt_size_12sp" />
+
+                <TextView
+                    android:id="@+id/tvDesNatcom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/Price"
+                    android:textSize="@dimen/pad_margin_10dp" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivService1"
+                android:layout_width="@dimen/height_width_50dp"
+                android:layout_height="@dimen/height_width_70dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/moncash" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Paypal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/ivPaypal"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:padding="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_background" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="0dp"
+                android:layout_toEndOf="@+id/ivPaypal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvPaypal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:textColor="@color/colorPending"
+                    android:maxLines="1"
+                    android:text="@string/service2"
+                    android:textSize="@dimen/txt_size_12sp" />
+
+                <TextView
+                    android:id="@+id/tvDesPaypal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/Price"
+                    android:textSize="@dimen/pad_margin_10dp" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivService2"
+                android:layout_width="@dimen/height_width_50dp"
+                android:layout_height="@dimen/height_width_70dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/moncash" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
